@@ -19,9 +19,13 @@ return {
   },
   opts = {
     workspaces = {
+      --{
+      --  name = 'Desktop',
+      --  path = 'E:/Stories',
+      --},
       {
-        name = 'personal',
-        path = 'E:/Stories',
+        name = 'Colossus',
+        path = 'C:/Users/Squirrel/Documents/Worldbuilding',
       },
     },
     -- A list of workspace names, paths, and configuration overrides.
@@ -144,13 +148,13 @@ return {
     end,
 
     -- Optional, for templates (see below).
-    templates = {
-      folder = 'templates',
-      date_format = '%Y-%m-%d',
-      time_format = '%H:%M',
-      -- A map for custom variables, the key should be the variable and the value a function
-      substitutions = {},
-    },
+    --templates = {
+    --  folder = 'templates',
+    --  date_format = '%Y-%m-%d',
+    --  time_format = '%H:%M',
+    --  -- A map for custom variables, the key should be the variable and the value a function
+    --  substitutions = {},
+    --},
 
     -- Optional, by default when you use `:ObsidianFollowLink` on a link to an external
     -- URL it will be ignored but you can customize this behavior here.
