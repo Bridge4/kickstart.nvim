@@ -170,3 +170,9 @@ cmp.setup {
     end, { 'i', 's' }),
   },
 }
+local ufo = require 'ufo'
+vim.keymap.set('n', 'zR', ufo.openAllFolds, { desc = 'Open all folds' })
+vim.keymap.set('n', 'zM', ufo.closeAllFolds, { desc = 'Close all folds' })
+vim.keymap.set('n', 'zr', ufo.openFoldsExceptKinds, { desc = 'Fold less' })
+vim.keymap.set('n', 'zm', ufo.closeFoldsWith, { desc = 'Fold more' })
+vim.keymap.set('n', 'zp', ufo.peekFoldedLinesUnderCursor, { desc = 'Peek fold' })

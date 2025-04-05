@@ -62,7 +62,7 @@ require('lazy').setup({
     },
   },
 })
-require('nvim-treesitter.install').compilers = { 'clang' }
+-- require('nvim-treesitter.install').compilers = { 'clang' }
 require('telescope').setup {
   defaults = {
     file_ignore_patterns = {

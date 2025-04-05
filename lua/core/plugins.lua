@@ -14,6 +14,7 @@ local todoComments = require 'plugin-configs.todo-comments'
 local tokyoNight = require 'plugin-configs.tokyo-night'
 local treesitter = require 'plugin-configs.treesitter'
 local whichKey = require 'plugin-configs.which-key'
+local nvimUfo = require 'plugin-configs.nvim-ufo'
 
 return {
   conform,
@@ -32,4 +33,5 @@ return {
   tokyoNight,
   treesitter,
   whichKey,
+  nvimUfo,
 }
