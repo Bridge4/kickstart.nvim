@@ -15,6 +15,13 @@ local tokyoNight = require 'plugin-configs.tokyo-night'
 local treesitter = require 'plugin-configs.treesitter'
 local whichKey = require 'plugin-configs.which-key'
 local nvimUfo = require 'plugin-configs.nvim-ufo'
+local lint = require 'plugin-configs.lint'
+local autopairs = require 'plugin-configs.autopairs'
+local indent = require 'plugin-configs.indent_line'
+local typescript_tools = require 'plugin-configs.typescript-tools'
+local nightfox = require 'plugin-configs.nightfox'
+local inline_diagnostic = require 'plugin-configs.inline-diagnostic'
+local auto_session = require 'plugin-configs.auto-session'
 
 return {
   conform,
@@ -30,8 +37,15 @@ return {
   obsidian,
   oil,
   todoComments,
-  tokyoNight,
+  --tokyoNight,
   treesitter,
   whichKey,
   nvimUfo,
+  lint,
+  autopairs,
+  indent,
+  typescript_tools,
+  nightfox,
+  inline_diagnostic,
+  auto_session,
 }
