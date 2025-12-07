@@ -22,10 +22,15 @@ local typescript_tools = require 'plugin-configs.typescript-tools'
 local nightfox = require 'plugin-configs.nightfox'
 local inline_diagnostic = require 'plugin-configs.inline-diagnostic'
 local auto_session = require 'plugin-configs.auto-session'
+local debugger = require 'plugin-configs.debug'
+local toggleTerm = require 'plugin-configs.toggleterm'
+local neoGit = require 'plugin-configs.neo-git'
+local gitHunk = require 'plugin-configs.git-hunk'
+local gruvboxMaterial = require 'plugin-configs.gruvbox-material'
 
 return {
   conform,
-  dapUi,
+  --dapUi,
   fuzzyFinder,
   gitsigns,
   lazyDev,
@@ -33,7 +38,7 @@ return {
   luvitMeta,
   miniNvim,
   nvimCmp,
-  nvimDap,
+  --nvimDap,
   obsidian,
   oil,
   todoComments,
@@ -48,4 +53,8 @@ return {
   nightfox,
   inline_diagnostic,
   auto_session,
+  debugger,
+  --copilot,
+  toggleTerm,
+  gruvboxMaterial,
 }

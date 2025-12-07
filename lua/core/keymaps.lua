@@ -189,3 +189,5 @@ vim.keymap.set('n', 'zM', ufo.closeAllFolds, { desc = 'Close all folds' })
 vim.keymap.set('n', 'zr', ufo.openFoldsExceptKinds, { desc = 'Fold less' })
 vim.keymap.set('n', 'zm', ufo.closeFoldsWith, { desc = 'Fold more' })
 vim.keymap.set('n', 'zp', ufo.peekFoldedLinesUnderCursor, { desc = 'Peek fold' })
+local toggleTerm = require 'toggleterm'
+vim.keymap.set('n', 't', toggleTerm.toggle, { desc = 'Toggle Term' })
