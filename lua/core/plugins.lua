@@ -39,7 +39,7 @@ return {
   miniNvim,
   nvimCmp,
   --nvimDap,
-  obsidian,
+  --obsidian,
   oil,
   todoComments,
   --tokyoNight,
